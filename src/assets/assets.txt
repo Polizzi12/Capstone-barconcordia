@@ -1,0 +1,2 @@
+beige:#A18F78
+turchese:#27f7ea

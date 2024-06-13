@@ -1,0 +1,49 @@
+.custom-navbar {
+  background-size: cover; /* Copre l'intera area della navbar */
+  background-position: center; /* Centra l'immagine di sfondo */
+  background-repeat: no-repeat; /* Non ripete l'immagine */
+  padding: 20px 0; /* Padding superiore e inferiore */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Allinea gli elementi in alto */
+  gap:10px;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+
+.custom-navbar .navbar-brand img {
+  filter: brightness(0) invert(1); /* Se necessario, rende il logo visibile sopra l'immagine di sfondo */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: white; /* Colore dei link */
+  font-size: 30px;
+  margin-inline: 15px;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: lightgray; /* Colore dei link al passaggio del mouse */
+}
+
+@media (max-width: 767px) {
+  .custom-navbar .navbar-nav {
+    text-align: center; /* Centra i link nel menu hamburger */
+  }
+}
+
+.bb{
+  background-color:#A18F78 !important;
+  /* border-radius:15px !important; */
+  border:1px solid white !important;
+  padding-block: 10px !important;
+  padding-inline:15px !important;
+  font-size:20px !important;
+}
+
+.bb:hover{
+  cursor:pointer;
+  background-color: #7f705d !important;
+  border:1.5px solid white !important;
+}
+
